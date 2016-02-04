@@ -31,8 +31,3 @@
 11. The view layer binding asks the store to send over the new state.
 
 12. The view layer binding triggers a rerender.
-
-
-Stylelint shout be installed globally
-
-npm install --save-dev stylelint-loader stylelint
