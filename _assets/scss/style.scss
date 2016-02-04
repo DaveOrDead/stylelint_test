@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* ============================================================================
+   WORKFLOW BUILDER STYLESHEET
+   ========================================================================= */
+
+/**
+ * Styles for the Workflow Builder site.
+ *
+ * ----------------------------------------------------------------------------
+ *
+ * CONTENTS:
+ *
+ * 1. Workflow Builder settings
+ * 2. Shell library
+ * 3. Workflow Builder styles
+ *
+ * N.B. the above order of sections #1 and #2 must be maintained otherwise Sass
+ * will not compile!
+ */
+
+
+
+
+/* 1. Workflow Builder settings incl. any Shell setting overrides
+   ========================================================================= */
+
+@import "settings";
+
+
+
+
+/* 2. Shell library
+   ========================================================================= */
+
+/**
+ * The entire library is imported however only use what you need, you will
+ * however need: "Settings" and "Mixins/Functions" for Shell to work.
+ */
+
+
+/**
+ * Settings.
+ */
+
+@import "../../node_modules/shell-csslib/src/settings";
+
+
+/**
+ * Mixins/Functions.
+ */
+
+@import "../../node_modules/shell-csslib/src/mixins-functions";
+
+
+/**
+ * Normalise/Reset.
+ */
+
+@import "../../node_modules/shell-csslib/src/normalise-reset";
+
+
+/**
+ * Base.
+ */
+
+@import "../../node_modules/shell-csslib/src/base";
+
+
+/**
+ * Container.
+ */
+
+@import "../../node_modules/shell-csslib/src/container";
+
+
+/**
+ * Grid.
+ */
+
+@import "../../node_modules/shell-csslib/src/grid";
+
+
+/**
+ * Side-by-side.
+ */
+
+@import "../../node_modules/shell-csslib/src/side-by-side";
+
+
+/**
+ * Helpers.
+ */
+
+@import "../../node_modules/shell-csslib/src/helpers";
+
+
+
+
+/* 3. Workflow Builder styles
+   ========================================================================= */
+
+
+/**
+ * Base.
+ */
+
+@import "base";
+
+
+/**
+ * Layout/Template.
+ */
+
+
+/**
+ * Components.
+ */
+
+
+/**
+ * Vendor.
+ */

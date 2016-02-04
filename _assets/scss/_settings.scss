@@ -1,0 +1,100 @@
+/* ============================================================================
+   SETTINGS
+   ========================================================================= */
+
+/**
+ * All global settings (Sass variables) and any Shell library setting
+ * overrides.
+ *
+ * The project settings can use any of the Shell library settings, like so:
+ *
+   $g-color-code-block-background: $shell-g-color-white;
+ *
+ * ---------------------------------------------------------------------------
+ *
+ * All settings start with a global namespace: `$g` followed by one hyphen,
+ * like this:
+ *
+   $g-;
+ *
+ * The "g" stands for "global".
+ *
+ * ----------------------------------------------------------------------------
+ *
+ * CONTENTS:
+ *
+ * 1. Colours
+ * 2. Typography
+ * 3. Shell overrides
+ */
+
+
+
+
+/* 1. Colours
+   ========================================================================= */
+
+// CM blue
+$g-color-brand: #19a9e5;
+
+
+
+
+/* 2. Typography
+   ========================================================================= */
+
+
+
+
+/* 3. Shell overrides
+   ========================================================================= */
+
+/**
+ * Colours (Global).
+ */
+
+$shell-g-color-text-base: #333;
+
+$shell-g-color-link: $g-color-brand;
+
+$shell-g-color-link-hover: #1176a0;
+
+
+/**
+ * Typography (Global).
+ */
+
+$shell-g-font-size: 18;
+
+$shell-g-line-height: 26;
+
+$shell-g-font-size-heading: 58;
+
+// $shell-g-font-family-heading: $g-font-family-light;
+
+$shell-g-font-weight-heading: 200;
+
+
+/**
+ * Container (Local).
+ */
+
+$shell-container-maximum-width: 700;
+
+
+/**
+ * Grid (Local).
+ */
+
+/**
+ * Define breakpoints for all the grid item widths.
+ */
+
+
+/**
+ * Helpers (Local).
+ */
+
+/**
+ * Define breakpoints for all the applicable "Helpers".
+ */
